@@ -1,0 +1,29 @@
+variable,age,period,subset,# prior infections,person-years,n,"RT-PCR 
+(all)","RT-PCR 
+(symptomatic)","RT-PCR 
+(mod/sev)","Incidence 
+(all)","Incidence 
+(symptomatic)","Incidence 
+(mod/sev)","IRR 
+(all)","IRR 
+(symptomatic)","IRR 
+(mod/sev)",protection_pcr,protection_sympt,protection_mod/sev
+summary,all,all,all,0,2220.2,2500,186,151,39,8.4,6.8,1.8,ref,ref,ref,NA,NA,NA
+summary,all,all,NA,1,5439.2,2500,643,470,164,11.8,8.6,3.0,not calculated,not calculated,not calculated,NA,NA,NA
+summary,all,all,NA,2,2166.1,2500,162,107,45,7.5,4.9,2.1,not calculated,not calculated,not calculated,NA,NA,NA
+summary,all,all,NA,3+,642.2,2500,34,24,3,5.3,3.7,0.5,not calculated,not calculated,not calculated,NA,NA,NA
+age,18+y,all,18+y,0,2220.2,2500,186,151,39,8.4,6.8,1.8,ref,ref,ref,NA,NA,NA
+age,18+y,all,NA,1,5439.2,2500,643,470,164,11.8,8.6,3.0,"1.52 (1.28, 1.80)","1.36 (1.12, 1.64)","2.00 (1.40, 2.86)",-51.5 (-79.5--28.0),-35.6 (-64.2--12.1),-99.9 (-185.9--39.7)
+age,18+y,all,NA,2,2166.1,2500,162,107,45,7.5,4.9,2.1,"1.02 (0.82, 1.28)","0.83 (0.63, 1.08)","1.60 (1.02, 2.52)",-2.3 (-28.2-18.3),17.4 (-7.6-36.7),-60.2 (-152.1--1.8)
+age,18+y,all,NA,3+,642.2,2500,34,24,3,5.3,3.7,0.5,"0.74 (0.51, 1.07)","0.64 (0.41, 0.99)","0.38 (0.12, 1.23)",26.4 (-7.1-49.5),36.5 (1.1-59.2),62.5 (-22.6-88.5)
+period,all,original,original,0,1673.6,2500,84,80,19,5.0,4.8,1.1,ref,ref,ref,NA,NA,NA
+period,all,original,NA,1,801.2,2500,37,31,7,4.6,3.9,0.9,not calculated,not calculated,not calculated,NA,NA,NA
+period,all,original,NA,2,25.2,1032,0,0,0,0.0,0.0,0.0,not calculated,not calculated,not calculated,NA,NA,NA
+period,all,pre-omicron variant,pre-omicron variant,0,412.2,2500,82,58,16,19.9,14.1,3.9,ref,ref,ref,NA,NA,NA
+period,all,pre-omicron variant,NA,1,1723.3,2500,347,245,111,20.1,14.2,6.4,not calculated,not calculated,not calculated,NA,NA,NA
+period,all,pre-omicron variant,NA,2,138.4,2389,25,17,12,18.1,12.3,8.7,not calculated,not calculated,not calculated,NA,NA,NA
+period,all,pre-omicron variant,NA,3+,9.8,470,0,0,0,0.0,0.0,0.0,not calculated,not calculated,not calculated,NA,NA,NA
+period,all,omicron,omicron,0,134.4,2363,20,13,4,14.9,9.7,3.0,ref,ref,ref,NA,NA,NA
+period,all,omicron,NA,1,2914.7,2500,259,194,46,8.9,6.7,1.6,not calculated,not calculated,not calculated,NA,NA,NA
+period,all,omicron,NA,2,2002.5,2500,137,90,33,6.8,4.5,1.6,not calculated,not calculated,not calculated,NA,NA,NA
+period,all,omicron,NA,3+,632.4,2500,34,24,3,5.4,3.8,0.5,not calculated,not calculated,not calculated,NA,NA,NA
